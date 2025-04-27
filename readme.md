@@ -25,7 +25,7 @@ inline stiles from your html on the fly:
 </div>
 ```
 
-See the [demo](http://samwillis.co.uk/x-style/) for more examples.
+See the [demo](https://samwillis.uk/x-style/) for more examples.
 
 The styles are only parsed once so *repeated use of the same style is very fast*, the
 library adds an attribute to each element for use by a css selector to find the
@@ -111,7 +111,7 @@ tiny it is better, and faster, to inline them.
 There is an optional second boolean parameter that disables adding a `x-style-match` 
 attribute to the elements that have had their styles applied. Instead the naked 
 `x-style` attribute value if used for the selector, but this can be quite slow. As the 
-defualt behavour mutates the DOM it may cause problems with some frameworks, if so set 
+default behaviour mutates the DOM it may cause problems with some frameworks, if so set 
 this to `true` to disable the behaviour.
 
 ```js
